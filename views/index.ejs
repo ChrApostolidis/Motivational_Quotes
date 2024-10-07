@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Quotes</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+   <div class = "container">
+        <div>
+            <h1>Motivational Quotes</h1>
+        </div>
+
+        <div id = "quote"   style="display: none;">
+            <p class = "quote-author">
+                <%= quote %> <!-- Initially hidden -->
+            </p>
+        </div>
+    
+        <div id = "author"  style="display: none;">
+            <p class = "quote-author">
+                <%= author %> <!-- Initially hidden -->
+            </p>
+        </div>
+        <div>
+            <button class="button" role="button"  id = "quote-button">Give The Quote Of The Day</button>
+        </div>
+    
+        <footer class = "footer">
+            <p>&copy; 2024 Chris Apostolidis</p>
+        </footer>
+    </div>
+<script src="/scripts/main.js"></script>
+</body>
+</html>
